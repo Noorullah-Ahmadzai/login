@@ -1,0 +1,93 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0;
+}
+
+.login-form {
+  display: flex;
+
+  height: 60rem;
+  width: 75rem;
+
+  border-radius: 3px;
+  overflow: hidden;
+
+  &__left-side {
+    width: 100%;
+
+    &__pic {
+      display: block;
+
+      background-image: linear-gradient(rgba($color-black, 0.01), rgba($color-black, 0.01)),
+        url('/img/login/login-pic.jpg');
+      background-size: cover;
+
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__right-side {
+    background-color: $color-grey-light-1;
+    width: 100%;
+
+    padding: 12rem 0rem;
+
+    &__heading2 {
+      display: flex;
+      justify-content: center;
+      color: $color-grey-dark-2;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.form {
+  &-login {
+    margin: 0 2.5rem;
+    height: 30rem;
+  }
+
+  &__signup-text {
+    display: flex;
+    justify-content: center;
+    color: $color-grey-dark-2;
+    margin-right: 1rem;
+  }
+
+  &__signup-link {
+    color: $color-primary;
+    text-decoration: none;
+    margin-left: 1rem;
+  }
+
+  &-group {
+    width: 100%;
+
+    &:not(:last-child) {
+      margin-bottom: 1.5rem;
+    }
+
+    &__label {
+      margin-bottom: 10rem;
+      color: $color-grey-dark-2;
+      font-size: 1.6rem;
+      font-weight: 700;
+    }
+
+    &__input {
+      display: block;
+      width: 100%;
+      border: none;
+      padding: 1.4rem;
+      color: $color-grey-dark-1;
+      background-color: $color-grey-light-3;
+      font-size: inherit;
+      border-radius: 3px;
+      outline: none;
+      margin-top: 0.2rem;
+    }
+  }
+}

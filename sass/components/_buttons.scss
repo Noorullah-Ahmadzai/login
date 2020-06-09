@@ -1,0 +1,36 @@
+.btn {
+  display: block;
+  text-align: center;
+  padding: 1rem 5rem;
+  border: none;
+  color: $color-grey-dark-1;
+  border-radius: 3px;
+  margin-top: 3rem;
+  font-size: inherit;
+  transition: all 0.2s;
+  outline: none;
+  user-select: none;
+}
+
+.btn:hover,
+.btn:link {
+  background-color: $color-primary-light;
+  cursor: pointer;
+  transform: translateY(-0.2rem);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1rem 2rem;
+}
+
+.btn:active,
+.btn:visited {
+  transform: translateY(0rem);
+  box-shadow: none;
+}
+
+.btn-primary {
+  background-color: $color-primary;
+  color: $color-white;
+}
+
+.btn-large {
+  width: 100%;
+}

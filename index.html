@@ -5,7 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
     <link rel="shortcut icon" type="image/png" href="/img/favicon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
     <title>Login</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <section class="login">
+        <div class="login-form">
+          <div class="login-form__left-side">
+            <div class="login-form__left-side__pic">&nbsp;</div>
+          </div>
+          <div class="login-form__right-side">
+            <h2 class="login-form__right-side__heading2 mb-3">Account Login</h2>
+
+            <form class="form-login">
+              <div class="form-group">
+                <label for="email" class="form-group__label">Email Address</label>
+                <input
+                  type="text"
+                  class="form-group__input"
+                  placeholder="you@example.com"
+                  id="email"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="password" class="form-group__label">Password</label>
+                <input
+                  type="password"
+                  class="form-group__input"
+                  placeholder="Password"
+                  id="password"
+                />
+              </div>
+
+              <a class="btn btn-primary btn-large mt-5" type="submit">Sign In</a>
+            </form>
+
+            <label for="signup" class="form__signup-text">
+              Don't have account? <a href="#" class="form__signup-link">Sign up</a>
+            </label>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
