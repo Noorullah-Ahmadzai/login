@@ -1,0 +1,22 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "login",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noorullah-Ahmadzai/login.git"
+  },
+  "keywords": [
+    "login"
+  ],
+  "author": "Noorullah Ahmadzai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Noorullah-Ahmadzai/login/issues"
+  },
+  "homepage": "https://github.com/Noorullah-Ahmadzai/login#readme"
+}
