@@ -171,15 +171,18 @@ body {
 .form-login {
   margin: 0 2.5rem;
   height: 30rem; }
+
 .form__signup-text {
   display: flex;
   justify-content: center;
   color: #777;
   margin-right: 1rem; }
+
 .form__signup-link {
   color: #2050dc;
   text-decoration: none;
   margin-left: 1rem; }
+
 .form-group {
   width: 100%; }
   .form-group:not(:last-child) {
@@ -199,6 +202,11 @@ body {
     font-size: inherit;
     border-radius: 3px;
     outline: none;
-    margin-top: 0.2rem; }
-
-/*# sourceMappingURL=style.css.map */
+    margin-top: 0.2rem;
+    transition: all 0.2s; }
+    .form-group__input:focus {
+      outline: none;
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+      border-bottom: 3px solid #2050dc; }
+      .form-group__input:focus:invalid {
+        border-bottom: 3px solid #ff3d02; }
